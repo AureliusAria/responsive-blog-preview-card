@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Responsive preview card with CSS](https://your-live-site-url.com)
+- Solution URL: [Source Code](https://github.com/AureliusAria/responsive-blog-preview-card)
+- Live Site URL: [Responsive preview card with CSS](https://responsive-blog-preview-card.netlify.app/)
 
 ## My process
 
