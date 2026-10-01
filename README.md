@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Blog preview card screenshot](./screenshot.png)
+![Blog preview card screenshot](./assets/images/screenshot.png)
 
 ### Links
 
