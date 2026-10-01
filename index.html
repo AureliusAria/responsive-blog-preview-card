@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-size: 62.5%;
+      }
+
+      body {
+        font-family: "Figtree", sans-serif;
+        line-height: 1;
+        font-weight: 400;
+        background-color: #f4d04e;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container {
+        max-width: 38.4rem;
+        margin: 0 auto;
+        margin-bottom: 2.4rem;
+      }
+
+      .card-preview {
+        max-width: 38.4rem;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 2.4rem;
+        border-radius: 15px;
+
+        box-shadow: 10px 10px #111111;
+      }
+
+      .img-preview {
+        width: 100%;
+        height: auto;
+        border-radius: 7.5px;
+        margin-bottom: 2.4rem;
+      }
+
+      .label-preview {
+        display: inline-block;
+        font-size: 1.4rem;
+        line-height: 150%;
+        font-weight: 800;
+        color: #111111;
+
+        padding: 0.4rem 1.2rem;
+        background-color: #f4d04e;
+        border-radius: 4px;
+
+        margin-bottom: 1.5rem;
+      }
+
+      .publish-date {
+        font-size: 1.4rem;
+        line-height: 150%;
+        color: #6b6b6b;
+        margin-bottom: 1.7rem;
+      }
+
+      .title {
+        font-size: 2.4rem;
+        line-height: 150%;
+        font-weight: 800;
+        color: #111111;
+        margin-bottom: 1.6rem;
+      }
+
+      .title:hover {
+        color: #f4d04e;
+        transition: color 0.3s;
+      }
+
+      .description {
+        font-size: 1.6rem;
+        line-height: 150%;
+        color: #6b6b6b;
+
+        margin-bottom: 2.4rem;
+      }
+      .author-info {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
+      .author-avatar {
+        width: 3.4rem;
+        height: 3.4rem;
+      }
+
+      .author-name {
+        font-size: 1.4rem;
+        line-height: 150%;
+        color: #111111;
+        font-weight: 800;
+      }
+
+      .attribution {
+        font-size: 1.4rem;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(230, 4%, 27%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="card-preview">
+        <img
+          src="./assets/images/illustration-article.svg"
+          class="img-preview"
+          alt="Article illustration"
+        />
+
+        <span class="label-preview">Learning</span>
+        <p class="publish-date">Published 21 Dec 2023</p>
+        <h1 class="title">HTML & CSS foundations</h1>
+        <p class="description">
+          These languages are the backbone of every website, define structure,
+          content, and presentation.
+        </p>
+
+        <div class="author-info">
+          <img
+            src="./assets/images/image-avatar.webp"
+            alt="image avatar"
+            class="author-avatar"
+          />
+          <span class="author-name">Greg Hooper</span>
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/AureliusAria">Aurelius Aria</a>.
+    </footer>
+  </body>
+</html>
