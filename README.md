@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Source Code](https://github.com/AureliusAria/responsive-blog-preview-card)
-- Live Site URL: [Responsive preview card with CSS](https://responsive-blog-preview-card.netlify.app/)
+- Live Site URL: [Responsive blog preview card with CSS](https://responsive-blog-preview-card.netlify.app/)
 
 ## My process
 
